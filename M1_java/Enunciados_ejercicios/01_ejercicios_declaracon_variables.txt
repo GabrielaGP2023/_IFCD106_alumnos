@@ -1,0 +1,7 @@
+Declara dos variables enteras a y b e imprime su suma.
+Declara dos variables de punto flotante x y y e imprime su producto.
+Declara una variable letra de tipo char e imprime su valor.
+Declara una variable verdadero de tipo boolean y asígnale el valor true. Imprime su valor.
+Declara una variable mensaje de tipo String e imprime su contenido.
+Declara e inicializa tres variables enteras x, y y z en una sola línea y calcula su suma.
+Declara dos variables enteras a y b. Calcula y muestra la suma, resta, multiplicación y división de estas variables.
