@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: core
+  main:
+    banner-mode: "console"
+  banner:
+    location: "classpath:banner.txt"
