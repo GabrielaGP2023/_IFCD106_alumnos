@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ejercicios
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  #    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/ejercicios_spring_data_jpa
+    username: postgres
+    password: postgres
