@@ -1,0 +1,10 @@
+<p>desde works!</p>
+<a routerLink="/hacia">Ir a Hacia</a>
+<a [routerLink]="['parametro', 42]">Ir a Parametro con id 42</a>
+<br>
+<button (click)="navegar()">Navegar a Hacia desde programacion</button>
+<br>
+<a routerLink="/ruta-inexistente">Ir a ruta inexistente (Error de navegacion)</a>
+<br>
+<router-outlet></router-outlet>
+
