@@ -1,0 +1,13 @@
+<h2>Formulario two way binding</h2>
+<label for="Nombre">Nombre :</label> 
+<input id="nombre" type="text" [(ngModel)]="puestoTrabajo.nombre" />
+<br />
+<label for="nivel">Nivel:</label>   
+<input id="nivel" type="number" [(ngModel)]="puestoTrabajo.nivel" />
+<br />
+<label for="sueldo">Sueldo:</label>     
+<input id="sueldo" type="number" [(ngModel)]="puestoTrabajo.sueldo" />
+<br />
+<button (click)="altafase2()">Alta</button>
+
+

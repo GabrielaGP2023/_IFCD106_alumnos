@@ -1,0 +1,28 @@
+<h2>Ejercicio 4</h2>
+
+@switch (rolUsuario) {
+  @case ('admin') {
+    Acceso total
+  }
+  @case ('editor') {
+    Puedes editar contenido
+  }
+  @case ('viewer') {
+    Solo puedes ver contenido
+  }
+  @default {
+    No tienes acceso
+  }
+}
+<button (click)="cambiarRol()">
+  Cambiar Rol (Actual: {{ rolUsuario }})
+</button>
+
+<!-- <h2>Ejercicio 4</h2>
+
+<div [ngSwitch]="rolUsuario">
+    <div *ngSwitchCase="'admin'">Acceso total</div>
+    <div *ngSwitchCase="'editor'">Puedes editar contenido</div>
+    <div *ngSwitchCase="'viewer'">Solo puedes ver contenido</div>
+    <div *ngSwitchDefault>No tienes acceso</div>
+  </div> -->

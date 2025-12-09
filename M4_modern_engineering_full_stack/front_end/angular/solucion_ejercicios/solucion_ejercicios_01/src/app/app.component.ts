@@ -5,12 +5,15 @@ import { Ejercicio02Component } from './ejercicio02/ejercicio02.component';
 import { Ejercicio03Component } from './ejercicio03/ejercicio03.component';
 import { Ejercicio04Component } from './ejercicio04/ejercicio04.component';
 import { Ejercicio05Component } from './ejercicio05/ejercicio05.component';
+import { UsoServicioComponent } from './uso-servicio/uso-servicio.component';
+import { FormularioReactivoComponent } from './formulario-reactivo/formulario-reactivo.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, Ejercicio01Component,Ejercicio02Component,
-    Ejercicio03Component, Ejercicio04Component, Ejercicio05Component
+    Ejercicio03Component, Ejercicio04Component, Ejercicio05Component, UsoServicioComponent,
+    FormularioReactivoComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

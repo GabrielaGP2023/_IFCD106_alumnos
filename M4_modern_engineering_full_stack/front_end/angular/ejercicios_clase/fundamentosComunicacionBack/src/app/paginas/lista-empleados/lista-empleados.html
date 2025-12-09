@@ -1,0 +1,20 @@
+<h1>PUESTOS DE TRABAJO</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Nivel</th>
+            <th>Sueldo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(puesto of puestosTrabajoSignal(); track  puesto.id) {
+        <tr >
+            <td>{{ puesto.id }}</td>
+            <td>{{ puesto.nombre }}</td>
+            <td>{{ puesto.nivel }}</td>
+            <td>{{ puesto.sueldo | currency:'EUR' }}</td>
+        </tr>
+    }
+    </tbody>

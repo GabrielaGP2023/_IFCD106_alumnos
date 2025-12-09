@@ -1,0 +1,9 @@
+<h1>EJERCICIO 7</h1>
+Numero 1: <input type="number" [(ngModel)]="num">
+<select [(ngModel)]="divisa">
+  <option value="libra">Libra</option>
+  <option value="dolar">Dolar</option>
+  <option value="jen">Jens</option>
+</select>
+<button (click)="convert(divisa)">Convertir</button>
+<input type="text" disabled [(ngModel)]="resultado">

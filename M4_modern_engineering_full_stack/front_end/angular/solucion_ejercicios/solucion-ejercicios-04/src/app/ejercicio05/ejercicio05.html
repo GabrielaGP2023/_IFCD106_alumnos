@@ -1,0 +1,10 @@
+<h2>EJERCICIO 5</h2>
+<H2>Lista de tareas desde un array</H2>
+<ul>
+  @for (tarea of tareas; track $index) {
+    <li>{{ tarea }}</li>
+  } @empty {
+    <li>No hay tareas disponibles</li>
+  }
+</ul>
+

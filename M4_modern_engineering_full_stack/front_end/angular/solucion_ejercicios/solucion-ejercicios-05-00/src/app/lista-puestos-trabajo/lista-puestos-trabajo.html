@@ -1,0 +1,23 @@
+<h1>LISTA DE PUESTROS DE TRABAJO</h1>
+
+<table>
+ 
+  <tr>
+    <th>Id</th>
+    <th>nombre</th>
+    <th>nivel</th>
+    <th>sueldo</th>
+  </tr>
+  @for(elemento of puestosTrabajo();track elemento.id){
+  <tr>
+    <td>{{ elemento.id}}</td>
+    <td>{{ elemento.nombre}}</td>
+    <td>{{ elemento.nivel }}</td>
+    <td>{{ elemento.sueldo }}</td>  
+  </tr>
+  }
+</table>
+
+
+
+

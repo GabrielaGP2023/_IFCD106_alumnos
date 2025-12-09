@@ -1,0 +1,10 @@
+<h1>EJERCICIO 5</h1>
+<h2>Contador con botones</h2>
+<p>Contador: {{contador}}</p>
+<button (click)="incrementar()">Incrementar</button>
+<button (click)="decrementar()" [disabled]="deshabilitarDecrementar">Decrementar</button>
+<button (click)="restablecer()" >Restablecer a 0</button>
+<br><br>
+<label for="cambiar">Cambiar valor a:</label>
+<input type="number" id="cambiar" [(ngModel)]="valorCambiar">
+<button (click)="cambiar()">Cambiar</button>

@@ -1,0 +1,12 @@
+<h2>EJERCICIO 2</h2>
+
+<button (click)="status = status === 'activo' ? 'inactivo' : 'activo'">
+  Cambiar Estado
+</button>
+
+<div 
+  [class.activo]="status === 'activo'"
+  [class.inactivo]="status === 'inactivo'">
+  Estado: {{ status }}
+</div>
+

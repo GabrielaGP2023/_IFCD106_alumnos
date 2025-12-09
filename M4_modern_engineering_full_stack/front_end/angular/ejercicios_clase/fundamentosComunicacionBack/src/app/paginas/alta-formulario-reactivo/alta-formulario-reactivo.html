@@ -1,0 +1,18 @@
+<h2>Alta Puesto de trabajo con Formulario Reactivo</h2>
+<form [formGroup]="formularioPuestoTrabajo" (ngSubmit)="altafase2()">
+  <label for="nombre">Nombre:</label>
+  <input id="nombre" type="text" formControlName="nombre" />
+  
+  <br />
+
+  <label for="nivel">Nivel:</label>
+  <input id="nivel" type="number" formControlName="nivel" />
+  
+  <br />
+
+  <label for="sueldo">Sueldo:</label>
+  <input id="sueldo" type="number" formControlName="sueldo" />
+  
+  <br />
+
+  <button type="submit" [disabled]="formularioPuestoTrabajo.invalid">Alta</button>

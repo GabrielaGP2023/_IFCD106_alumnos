@@ -1,0 +1,11 @@
+<h2>Formulario Reactivo Sencillo</h2>
+
+<form [formGroup]="formulario" (ngSubmit)="enviar()">
+  <label>
+    Nombre:
+    <input type="text" formControlName="nombre">
+  </label>
+
+  <button type="submit">Enviar</button>
+</form>
+

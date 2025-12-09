@@ -1,0 +1,35 @@
+<h2>Formulario de Contacto</h2>
+
+<form>
+  <label>
+    Nombre:
+    <input type="text" [(ngModel)]="nombre" name="nombre">
+  </label>
+  <br><br>
+
+  <label>
+    Apellidos:
+    <input type="text" [(ngModel)]="apellidos" name="apellidos">
+  </label>
+  <br><br>
+
+  <label>
+    Correo electrónico:
+    <input type="email" [(ngModel)]="correo" name="correo">
+  </label>
+  <br><br>
+
+  <label>
+    Teléfono:
+    <input type="tel" [(ngModel)]="telefono" name="telefono">
+  </label>
+  <br><br>
+
+  <button type="button" (click)="mostrarDatos()">
+    Mostrar datos
+  </button>
+</form>
+
+<hr>
+
+

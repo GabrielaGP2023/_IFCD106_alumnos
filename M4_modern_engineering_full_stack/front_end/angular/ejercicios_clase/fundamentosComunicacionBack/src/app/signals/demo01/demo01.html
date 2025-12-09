@@ -1,0 +1,15 @@
+<h1>FUNDAMENTOS DE SIGNALS </h1>
+<p>Demo 01: Uso básico de Signals</p>   
+<p>En este ejemplo, se muestra cómo utilizar Signals en Angular para gestionar el estado de un contador. El contador se incrementa cada vez que se hace clic en el botón "Incrementar".</p>
+<div>
+  <h2>Contador: {{ contador() }}</h2>
+  <button (click)="incrementar()">Incrementar</button>
+</div>
+<p>En este ejemplo, se define una señal llamada <code>contador</code> que almacena el valor actual del contador. La función <code>incrementar()</code> actualiza el valor de la señal cada vez que se hace clic en el botón.</p>        
+<p>Al utilizar Signals, Angular puede detectar automáticamente los cambios en el valor del contador y actualizar la vista en consecuencia, sin necesidad de utilizar mecanismos adicionales como <code>ChangeDetectorRef</code> o <code>NgZone</code>.</p>
+<p>Este enfoque simplifica la gestión del estado en aplicaciones Angular y mejora el rendimiento al reducir la cantidad de trabajo que Angular debe realizar para detectar cambios.</p>
+<p>¡Experimenta haciendo clic en el botón para ver cómo funciona!</p>
+<div>
+   <p>contador actual: {{ contador() }}</p> 
+    <p>Doble del contador: {{ doble() }}</p>
+</div>

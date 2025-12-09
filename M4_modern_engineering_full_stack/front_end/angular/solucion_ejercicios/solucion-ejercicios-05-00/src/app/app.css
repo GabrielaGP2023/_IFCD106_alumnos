@@ -1,0 +1,22 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f0f0f0;  
+    padding: 10px 0;
+    align-items: center;
+    
+}
+.menu a {
+  text-decoration: none;      /* Quita el subrayado */
+  color: #333;                /* Color del texto */
+  padding: 10px 15px;         /* Espaciado interno */
+  display: inline-block;      /* Para que el padding funcione bien */
+  transition: 0.3s ease;      /* Animación suave en hover */
+}
+
+.menu a:hover {
+  color: white;               /* Color del texto al pasar el mouse */
+  background-color: goldenrod;  /* Fondo en hover */
+  border-radius: 5px;         /* Bordes redondeados opcionales */
+}
