@@ -1,0 +1,8 @@
+<h1>Lista de Puestos de trabajo usando Store</h1>
+ <h2>Puestos de trabajo</h2>
+
+    @for (p of store.puestos(); track p.id) {
+      <div>{{ p.nombre }} - {{ p.sueldo }}€</div>
+    }
+
+    <button (click)="store.recargar()">Refrescar</button>
